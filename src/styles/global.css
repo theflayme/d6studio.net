@@ -58,3 +58,31 @@ p {
   font-weight: 400;
   line-height: 20px;
 }
+
+.no-device {
+  display: none !important;
+}
+
+
+@media (max-width: 350px) {
+  .no-device {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .no-device p {
+    opacity: 0.5;
+  }
+
+  .no-device p {
+    opacity: 0.5;
+  }
+
+  .container__card {
+    display: none !important;
+  }
+}

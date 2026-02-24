@@ -12,8 +12,9 @@ import GitHubIcon from './assets/icon/github.svg?react'
 import TelegramIcon from './assets/icon/telegram.svg?react'
 import EmailIcon from './assets/icon/email.svg?react'
 
-function App() {
+import NoDevice from './pages/NoDevice'
 
+function App() {
   const link = [
     {
       href: 'https://github.com/theflayme',
@@ -30,6 +31,7 @@ function App() {
   ]
   return (
     <>
+      <NoDevice />
       <div className="container__card">
         <div className="header__card">
           <div className="header__card__banner">

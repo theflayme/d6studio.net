@@ -13,8 +13,8 @@ import TelegramIcon from './assets/icon/telegram.svg?react'
 import EmailIcon from './assets/icon/email.svg?react'
 
 import NoDevice from './pages/NoDevice'
-import BannerImage from './assets/images/Banner.jpg'
-import AvatarImage from './assets/images/avatar.jpg'
+import BannerImage from './assets/images/Banner.webp'
+import AvatarImage from './assets/images/avatar.webp'
 
 function App() {
   const link = [

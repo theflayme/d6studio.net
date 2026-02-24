@@ -14,6 +14,7 @@ import EmailIcon from './assets/icon/email.svg?react'
 
 import NoDevice from './pages/NoDevice'
 import BannerImage from './assets/images/Banner.jpg'
+import AvatarImage from './assets/images/avatar.jpg'
 
 function App() {
   const link = [
@@ -49,7 +50,7 @@ function App() {
               <span className='header__card__button'>Follows</span>
             </div>
           </div>
-          <div className="header__card__avatar"></div>
+          <div className="header__card__avatar" style={{ backgroundImage: `url(${AvatarImage})` }}></div>
         </div>
         <div className="content__card">
           <div className='content__card__title'>

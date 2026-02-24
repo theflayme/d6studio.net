@@ -22,15 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-visualizer
-package-lock.json
-.eslintcache
-
-analyzer
-coverage
-.swc
-cypress/videos
-cypress/screenshots
-.eslintchache
-stats.html

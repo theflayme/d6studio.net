@@ -13,6 +13,7 @@ import TelegramIcon from './assets/icon/telegram.svg?react'
 import EmailIcon from './assets/icon/email.svg?react'
 
 import NoDevice from './pages/NoDevice'
+import BannerImage from './assets/images/banner.jpg'
 
 function App() {
   const link = [
@@ -34,7 +35,7 @@ function App() {
       <NoDevice />
       <div className="container__card">
         <div className="header__card">
-          <div className="header__card__banner">
+          <div className="header__card__banner" style={{ backgroundImage: `url(${BannerImage})` }}>
             <div className="header__card__social">
               <ul>
                 {link.map((item, index) => (

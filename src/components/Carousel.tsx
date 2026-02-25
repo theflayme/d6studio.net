@@ -1,7 +1,7 @@
 import HTML from '../assets/icon/html.svg?react'
 import CSS from '../assets/icon/css.svg?react'
 import SCSS from '../assets/icon/scss.svg?react'
-import Rest from '../assets/icon/rest-api.svg?react'
+import RestIcon from '../assets/icon/rest.svg?react'
 import Kubernetes from '../assets/icon/kubernetes.svg?react'
 import JS from '../assets/icon/js.svg?react'
 import ReactIcon from '../assets/icon/react.svg?react'
@@ -26,7 +26,7 @@ const techStack: IconType[] = [
   ReactIcon,
   TailWindIcon,
   MongoDBIcon,
-  Rest,
+  RestIcon,
   Kubernetes,
 ];
 

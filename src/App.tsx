@@ -11,6 +11,9 @@ import ReactIcon from './assets/icon/science.svg?react'
 import GitHubIcon from './assets/icon/github.svg?react'
 import TelegramIcon from './assets/icon/telegram.svg?react'
 import EmailIcon from './assets/icon/email.svg?react'
+import TypeScriptIcon from './assets/icon/typescript.svg?react'
+import TailWindIcon from './assets/icon/tailwind.svg?react'
+import MongoDBIcon from './assets/icon/mongodb.svg?react'
 
 import NoDevice from './pages/NoDevice'
 import BannerImage from './assets/images/Banner.webp'
@@ -31,6 +34,7 @@ function App() {
       icon: EmailIcon,
     },
   ]
+
   return (
     <>
       <NoDevice />
@@ -69,7 +73,10 @@ function App() {
                   <Rest className='group__carusel__item' />
                   <Kubernetes className='group__carusel__item' />
                   <JS className='group__carusel__item' />
+                  <TypeScriptIcon className='group__carusel__item' />
                   <ReactIcon className='group__carusel__item' />
+                  <TailWindIcon className='group__carusel__item' />
+                  <MongoDBIcon className='group__carusel__item' />
                 </div>
                 <div aria-hidden className="group__carusel">
                   <HTML className='group__carusel__item' />
@@ -78,7 +85,10 @@ function App() {
                   <Rest className='group__carusel__item' />
                   <Kubernetes className='group__carusel__item' />
                   <JS className='group__carusel__item' />
+                  <TypeScriptIcon className='group__carusel__item' />
                   <ReactIcon className='group__carusel__item' />
+                  <TailWindIcon className='group__carusel__item' />
+                  <MongoDBIcon className='group__carusel__item' />
                 </div>
               </div>
             </div >

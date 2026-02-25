@@ -1,4 +1,4 @@
-import './styles/app.css'
+import './styles/app.scss'
 import Verification from './assets/icon/verification.svg?react'
 
 import HTML from './assets/icon/html.svg?react'

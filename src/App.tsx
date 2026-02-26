@@ -1,4 +1,6 @@
 import './styles/app.scss'
+import React, { Suspense } from 'react'
+
 import Verification from './assets/icon/verification.svg?react'
 
 import GitHubIcon from './assets/icon/github.svg?react'
@@ -32,7 +34,7 @@ function App() {
   ]
 
   return (
-    <>
+    <Suspense fallback={<div className='container__card'></div>}>
       <NoDevice />
       <div className="container__card">
         <div className="header__card">
@@ -68,7 +70,7 @@ function App() {
             project, I’m always happy to help</p>
         </div >
       </div >
-    </>
+    </Suspense>
   )
 }
 

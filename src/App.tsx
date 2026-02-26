@@ -1,5 +1,5 @@
 import './styles/app.scss'
-import React, { Suspense } from 'react'
+import { Suspense } from 'react'
 
 import Verification from './assets/icon/verification.svg?react'
 

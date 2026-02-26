@@ -15,7 +15,6 @@ interface Props {
   stack?: IconType[];
 }
 
-
 const techStack: IconType[] = [
   HTML,
   CSS,

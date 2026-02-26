@@ -17,14 +17,17 @@ function App() {
     {
       href: 'https://github.com/theflayme',
       icon: GitHubIcon,
+      label: 'GitHub',
     },
     {
       href: 'https://t.me/d6studio',
       icon: TelegramIcon,
+      label: 'Telegram',
     },
     {
       href: 'mailto:workd6studio@gmail.com',
       icon: EmailIcon,
+      label: 'Email',
     },
   ]
 
@@ -38,7 +41,7 @@ function App() {
               <ul>
                 {link.map((item, index) => (
                   <li key={index}>
-                    <a href={item.href} target="_blank" rel="noreferrer">
+                    <a href={item.href} target="_blank" rel="noreferrer" aria-label={item.label}>
                       <item.icon className='card__social__icon' />
                     </a>
                   </li>
@@ -54,7 +57,7 @@ function App() {
             <h1>Dmytro
               <Verification />
             </h1>
-            <h3>Front-end Developer / Designer</h3>
+            <p>Front-end Developer / Designer</p>
           </div>
           <div className='content__card__carusel-wrapper'>
             <div className="carusel-visible">
